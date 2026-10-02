@@ -1,0 +1,35 @@
+bullshit_meter_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 5
+
+	powers = {
+		bullshit = {
+			max = 1000
+			#base_monthly_growth = 10
+			show_before_interactions = yes
+		}
+	}
+	
+	interactions = {
+		bullshit_menu_button = {
+			gui = bullshit_gov_mech
+			cost_type = bullshit
+			center = no
+			trigger = {
+				
+			}
+			effect = {
+				if = {
+					limit = { has_country_flag = bullshit_menu_open }
+					clr_country_flag = bullshit_menu_open
+				}
+				else = {
+					set_country_flag = bullshit_menu_open
+				}
+			}
+			ai_chance = {
+				factor = 0
+			}
+		}
+	}
+}

@@ -1,0 +1,218 @@
+spawn_pordox_effect_province_scope = {
+	cede_province = PDX
+	add_core = PDX
+	change_controller = PDX
+	add_human_minority_size_effect = yes
+}
+spawn_pordox_effect_pdx_scope = {
+	change_religion = cult_of_paradox
+	add_government_reform = paradox_empire
+	define_ruler = {
+		name = "John"
+		dynasty = "Paradox"
+		adm = 6
+		dip = 6
+		mil = 6
+		age = 20
+		claim = 100
+		male = yes
+		religion = cult_of_paradox
+	}
+	set_ruler_flag = john_paradox
+	define_powerful_mage = { type = ruler conjuration = 3 evocation = 3 abjuration = 3 enchantment = 3 divination = 3 illusion = 3 necromancy = 3 transmutation = 3 }
+	#	define_powerful_mage = { type = heir conjuration = 3 evocation = 3 abjuration = 3 enchantment = 3 divination = 3 illusion = 3 necromancy = 3 transmutation = 3 }
+	#	define_powerful_mage = { type = consort conjuration = 3 evocation = 3 abjuration = 3 enchantment = 3 divination = 3 illusion = 3 necromancy = 3 transmutation = 3 }
+	make_ruler_immortal = yes
+	#	make_heir_immortal = yes
+	#	make_consort_immortal = yes
+	add_ruler_personality = mythical_conqueror_personality
+	add_ruler_personality = renowned_adventurer_personality
+	define_ruler_to_war_wizard = yes
+	
+	set_country_flag = locked_racial_administration
+	add_country_modifier = { 
+		name = human_administration
+		duration = -1
+		hidden = yes
+	}
+	every_owned_province = {
+		update_racial_province_modifier_tolerance = yes
+	}
+	
+	# change_mana = { amount = 1000 }
+	add_country_modifier = { name = magical_infrastructure_3 duration = -1 hidden = yes }
+	magical_infrastructure_level_up = yes
+	update_unit_sprites_for_racial_mil = yes
+	set_country_flag = artificery_unlocked
+	set_country_flag = magic_artificery_mixed
+	set_country_flag = magic_list_any
+	
+	add_manpower = 100
+	add_sailors = 10000
+	
+	capital_scope = {
+		build_to_forcelimit = {
+			heavy_ship = 0.3
+			light_ship = 0.3
+			transport = 0.2
+		}
+		change_religion = cult_of_paradox
+		change_culture = pordox_intarct
+		center_of_trade = 3
+	}
+	
+	add_government_power = {
+		mechanic_type = bullshit_meter_mechanic
+		power_type = bullshit
+		value = 500
+	}
+}
+lets_be_xenophobic = {
+	hidden_effect = {
+		generic_start_purge = { race = centaur free = yes }
+		generic_start_purge = { race = dwarven free = yes }
+		generic_start_purge = { race = elven free = yes }
+		generic_start_purge = { race = gnollish free = yes }
+		generic_start_purge = { race = gnomish free = yes }
+		generic_start_purge = { race = goblin free = yes }
+		generic_start_purge = { race = half_elven free = yes }
+		generic_start_purge = { race = half_orcish free = yes }
+		generic_start_purge = { race = halfling free = yes }
+		generic_start_purge = { race = harimari free = yes }
+		generic_start_purge = { race = harpy free = yes }
+		generic_start_purge = { race = hobgoblin free = yes }
+		# generic_start_purge = { race = human free = yes }
+		generic_start_purge = { race = kobold free = yes }
+		generic_start_purge = { race = lizardfolk free = yes }
+		generic_start_purge = { race = mechanim free = yes }
+		generic_start_purge = { race = ogre free = yes }
+		generic_start_purge = { race = orcish free = yes }
+		generic_start_purge = { race = ruinborn free = yes }
+		generic_start_purge = { race = troll free = yes }
+		every_country = { generic_purge_expel_opinion_setup_reverse = { race = human } }
+		every_owned_province = {
+			update_racial_province_modifier_tolerance = yes
+		}
+		set_country_flag = yes_we_xenophobic
+	}
+}
+lets_not_be_xenophobic = {
+	hidden_effect = {
+		generic_end_purge = { race = centaur }
+		generic_end_purge = { race = dwarven }
+		generic_end_purge = { race = elven }
+		generic_end_purge = { race = gnollish }
+		generic_end_purge = { race = gnomish }
+		generic_end_purge = { race = goblin }
+		generic_end_purge = { race = half_elven }
+		generic_end_purge = { race = half_orcish }
+		generic_end_purge = { race = halfling }
+		generic_end_purge = { race = harimari }
+		generic_end_purge = { race = harpy }
+		generic_end_purge = { race = hobgoblin }
+		# generic_end_purge = { race = human }
+		generic_end_purge = { race = kobold }
+		generic_end_purge = { race = lizardfolk }
+		generic_end_purge = { race = mechanim }
+		generic_end_purge = { race = ogre }
+		generic_end_purge = { race = orcish }
+		generic_end_purge = { race = ruinborn }
+		generic_end_purge = { race = troll }
+		every_country = { generic_purge_expel_opinion_setup_reverse = { race = human } }
+		every_owned_province = {
+			update_racial_province_modifier_tolerance = yes
+		}
+	}
+}
+
+# Spawning Characters
+#
+# Available characters:
+# john_paradox
+# victoria_4_clausewitz
+# tinto_sil_catalunya
+# triumphman_the_wonderful
+# blackdog_the_chronicler
+
+spawn_john_paradox_ruler = {
+	define_ruler = {
+		name = "John"
+		dynasty = "Paradox"
+		adm = 6
+		dip = 6
+		mil = 6
+		claim = 95
+		male = yes
+		culture = pordox_intarct
+		religion = cult_of_paradox
+	}
+	make_ruler_immortal = yes
+	define_powerful_mage = { type = ruler conjuration = 3 evocation = 3 abjuration = 3 enchantment = 3 divination = 3 illusion = 3 necromancy = 3 transmutation = 3 }
+	define_ruler_to_war_wizard = yes
+}
+spawn_victoria_4_clausewitz_ruler = {
+	define_ruler = {
+		name = "Victoria IV"
+		dynasty = "Clausewitz"
+		adm = 6
+		dip = 6
+		mil = 6
+		claim = 95
+		female = yes
+		culture = pordox_intarct
+		religion = cult_of_paradox
+	}
+	make_ruler_immortal = yes
+	define_powerful_mage = { type = ruler conjuration = 3 evocation = 3 abjuration = 3 enchantment = 3 divination = 3 illusion = 3 necromancy = 3 transmutation = 3 }
+	define_ruler_to_war_wizard = yes
+}
+spawn_tinto_sil_catalunya_ruler = {
+	define_ruler = {
+		name = "Tinto"
+		dynasty = "sil Catalunya"
+		adm = 6
+		dip = 6
+		mil = 6
+		claim = 95
+		male = yes
+		culture = pordox_intarct
+		religion = cult_of_paradox
+	}
+	make_ruler_immortal = yes
+	define_powerful_mage = { type = ruler conjuration = 3 evocation = 3 abjuration = 3 enchantment = 3 divination = 3 illusion = 3 necromancy = 3 transmutation = 3 }
+	define_ruler_to_war_wizard = yes
+}
+spawn_triumphman_the_wonderful_ruler = {
+	define_ruler = {
+		name = "Triumphman"
+		dynasty = "the Wonderful"
+		adm = 6
+		dip = 6
+		mil = 6
+		claim = 95
+		male = yes
+		culture = pordox_intarct
+		religion = cult_of_paradox
+	}
+	make_ruler_immortal = yes
+	define_powerful_mage = { type = ruler conjuration = 3 evocation = 3 abjuration = 3 enchantment = 3 divination = 3 illusion = 3 necromancy = 3 transmutation = 3 }
+	define_ruler_to_war_wizard = yes
+}
+spawn_blackdog_the_chronicler_ruler = {
+	define_ruler = {
+		name = "Blackdog:"
+		dynasty = "the Chronicler"
+		adm = 6
+		dip = 6
+		mil = 6
+		claim = 95
+		male = yes
+		culture = pordox_intarct
+		religion = cult_of_paradox
+	}
+	make_ruler_immortal = yes
+	define_powerful_mage = { type = ruler conjuration = 3 evocation = 3 abjuration = 3 enchantment = 3 divination = 3 illusion = 3 necromancy = 3 transmutation = 3 }
+	define_ruler_to_war_wizard = yes
+}
+
+#Bullshit Menu stuff

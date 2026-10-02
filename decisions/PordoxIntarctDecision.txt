@@ -1,0 +1,95 @@
+country_decisions = {
+	spawn_john_paradox = {
+		major = yes
+		potential = {
+			NOT = { has_global_flag = pordox_intarct_event_active }
+			ai = no
+			NOT = { exists = PDX }
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			country_event = { id = pordox_intarct_events.1 }
+			set_global_flag = pordox_intarct_event_active
+		}
+	}
+	spell_swap_john_paradox = {
+		major = yes
+		potential = {
+			NOT = { has_global_flag = pordox_intarct_magic_tradition_event_active }
+			tag = PDX
+			ai = no
+			always = no #very broken currently
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			country_event = { id = pordox_intarct_events.4 }
+			set_global_flag = pordox_intarct_magic_tradition_event_active
+		}
+	}
+	toggle_op_mode_decision = {
+		major = yes
+		potential = {
+			tag = PDX
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			if = {
+				limit = { has_country_modifier = bullshit_op_mode }
+				remove_country_modifier = bullshit_op_mode
+			}
+			else = {
+				add_country_modifier = { 
+					name = bullshit_op_mode
+					duration = -1
+				}
+			}
+		}
+	}
+	toggle_aggressive_expansion_decision = {
+		major = yes
+		potential = {
+			tag = PDX
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			if = {
+				limit = { has_country_modifier = bullshit_aggressive_expansion_off }
+				remove_country_modifier = bullshit_aggressive_expansion_off
+			}
+			else = {
+				add_country_modifier = { 
+					name = bullshit_aggressive_expansion_off
+					duration = -1
+				}
+			}
+		}
+	}
+	world_conquest = {	#This is just for the thumbnail
+		major = yes
+		potential = {
+			tag = PDX
+			ai = no
+			always = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			every_province = {
+				cede_province = ROOT
+				add_core =  = ROOT
+				change_controller = ROOT
+			}
+		}
+	}
+}

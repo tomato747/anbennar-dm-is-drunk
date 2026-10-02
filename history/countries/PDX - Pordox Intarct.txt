@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = paradox_empire
+government_rank = 1
+primary_culture = pordox_intarct
+religion = cult_of_paradox
+technology_group = tech_cannorian
+capital = 1

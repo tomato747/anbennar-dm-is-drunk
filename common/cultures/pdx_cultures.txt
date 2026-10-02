@@ -1,0 +1,85 @@
+pordox_intarct_g = {
+	graphical_culture = westerngfx
+	pordox_intarct = {
+		primary = PDX
+		dynasty_names = {
+			": the Chronicler" "Paradox" "Clausewitz" "sil Catalonia" "Suffolk" "the Crayon Eater"
+			"Bonde" "Vasa" "Tre Rosor" "Oxenstierna" "Sparre" "Sture" "Tott" "Trolle" "Bielke" "Brahe"
+			"Horn" "Ribbing" "Skytte" "Banér" "Fleming" "Gyllenstierna" "de la Gardie" "Leijonhufvud" 
+			"Natt och Dag" "Grip" "Stenbock" "Bure" "Drake" "Hand" "Burensköld"
+			"Böllja" "Cruus" "Geete" "Grubbenhielm" "Soop" "Ekeblad" "Svinhufvud"
+			"Hård" "Forstena" "Kurck" "Eka" "Hjort" "Jägerhorn" "Lilliehöök"
+			"Porse" "Palme" Gumsehuvud
+			"Bååt" "Ulv" "Sjöblad" "Läma" "Posse" "Rosenstråle" "Thott" "Bagge"
+			"Bese" "Gädda" "Hatt" "Marsvin" "Oxhufvud" "Stake" "Tre Rutor" "Hästesko"
+			"Ulfsax" "Tre Sjöblad" "Bratt" "Munk" "Eketrä" "Gera"
+			"Gylta" "Lillie" "Puke" "Slatte"  "Stiernkors" "Fincke" "Dufva" "Cronstedt"
+			"sílna Galvin" "síl Tretun" "síl Lanpool" Silurion Silgarion "síl Menibór" "síl Thanallen" "síl Ordóin" "síl Ilvan" "sílna Lence" Silcalas
+			"síl Crothán" "síl Cannéinn" Derwing "síl Bennon" "síl Terr"
+			"of Vanbury" Eaglecrest Fludd Lodan Feycombe Mossford Oudesker Wolfden Aldtempel Gardfort
+			"síl Ionntrás" "of Wystanway" "of Forkwic"
+		}
+		male_names = {
+			John Tinto Schwarzhund
+			Christian Christoph Oskar Adolf August Göran Sigismund Alfred Axel Edvard Gottfrid 
+			Jakob Ludvig Mikael Olof Patrik Rangvald Rettil Sigvard Simon Sture Svante 
+			Tomas Ulrik
+			Albrikt Albert Alf Algot Anders Arne Arnfast Astrad 
+			Bengt Benedict Bertil Birger Björn Bo Borkvard Brage Bror
+			Dag Dan Dyre Egil Einar Erik Eskild Faste Fredrik Frederick Filip 
+			Folke Georg Greger Gregory Gunnar Gustav Halsten Hans Harald Harold
+			Helge Henrik Hjalmar Holmger Håkan Inge Ingemar Ingvar
+			Edward Johan John Karl Klas Knut Lars Magnus
+			Markus Marcus 
+			Mats Matthew Nils Nicholas Niklas Odd Olaf Peter Ragnar Rolf 
+			Ragnvald Sörkver Sigurd Starkad Sten Styrbjörn Sune Sven
+			Sverker Sölve Thomas Tjudmund Toke Torbjörn Tord Torbrand Torkel Torolf 
+			Thorolf Torsten Toste Totil Tyke Ulf Valdemar Åke Östen
+			Ademar  Adran  Adrian  Adrien  Alphonse  Alos  Alain  Alvar  Ardan  Ardor  Aril  Artorian  Artur  Aucan  Austan  Awen  Borian  Brendan  Brayan  Brendan  Calas  Castén  Castín  Daras  Daras  Denar  Emond  Elran  Erel  Eren  Erlan  Evin  Galin  Gelman  Laurens  
+			Marion  Maurise  Olor  Otó  Rián  Ricain Ricard  Rión  Robbin  Rogier  Sandur  Taelar  Thal  Thiren  Tomás  Trian  Tristian  Varian  Varion  Varilor  Varilor  Vincen  Willam  Dustyn  Avery  Lucius  Crege  Taliesin  Marven  Galien  Sulgen Eustace
+			Dominic  Vernel  Armian  Cecill  Tristian  Teagan  Andrel  Frederic  Valeran  Valen  Corin  Aldres  Emil  Cailan  Carlián  Lothane  Adénn  Arrel  Lorran  Cristof  Devan  Alec  Marlen  Munerin  Damien  Damian  Devand  Darus  Silvard  Silverin  Sylvester  Cressen  Tomar
+			Adrei Alin Alveru Borian Calos Davan Devar Elrac Eren Laurenti Maron Rician Raubyn Sandr Trystan Varion Vencant Welhem Lucian Venal Valran Aldres Amolusan 
+			Balan Bogan Colovan Delabas Moscion Silmarcos Hadrien Ardor Austen Calas Darran Erlan Gelmon Sandur Thiren Trian Vincent Tustin André Valen Armand Stefan 
+			Silas Petre Gregoire Marcel Arel Adelmar Ostán Aven Castente Darres Evin Otón Sandor Trían Dominico Bernal Valente Locán Anzaro Ardan Urion Reginald
+			Adelor Adren Aderian Aderien Alfose Averi Alós Alan Alevor Arodan Aredor Auri Artori Artus Auca Austan Avien Bórian Berandor Beran Berande Calas Casetin Casetien Daran Denor Aimon Alran Arel Auren Arlan Auvin Galin Gelmane Lauranç Marion Mauriç Olor Otau Rian Raucard Rian Raubin Rogiel Sandel 
+			Taeli Tal Tirel Toma Tirian Tristan Varien Varior Vauril Vaurilen Vinçen Guilhem Dostin Auveri Laucius Dauminic Verenel Aremian Ceçil Tristan Telgan Andreu Fredelric Valhran Valan Corin Auldre Aumil Cilian Caralean Lautane Martin Edauard Henric Petran Laren Jaye
+			Ademar  Adran  Adrian  Adrien  Alphonse  Alos  Alain  Alvar  Ardan  Ardor  Aril  Artorian  Artur  Aucan  Austan  Awen  Borian  Brendan  Brayan  Brendan  Calas  Castén  Castín  Daras  Daras  Denar  Emond  Elran  Erel  Eren  Erlan  Evin  Galin  Gelman  Laurens  
+			Marion  Maurise  Olor  Otó  Rián  Ricain Ricard  Rión  Robbin  Rogier  Sandur  Taelar  Thal  Thiren  Tomás  Trian  Tristian  Varian  Varion  Varilor  Varilor  Vincen  Willam  Dustyn  Avery  Lucius  
+			Dominic  Vernel  Armian  Cecill  Tristian  Teagan  Andrel  Frederic  Valeran  Valen  Corin  Aldres  Emil  Cailan  Carlián  Lothane Armos Carlan Teagan Venac Andres Crovan Aldio Godeo Dalac Agros Artan Bardal Caero Biren Audac Serdil Otomar Otrar Adaen
+			Adémar Adran Hadrien Adrien Alfonse Avery Alois Alain Alvier Ardand Ardor Aril Artorian Artur Austen Awen Borian Brandan Brayan Brandan Calas Castén Castín Darran Denare Edmond Elran Erenn Erlan Evin Galin 
+			Gelmon Laurens Marion Maurice Olor Odó Reán Ricain Rión Robin Rogier Sandur Taelar Thal Thiren Tomáis Trian Trystane Varil Varion Varil Varil Vincent 
+			Guillame Tustin Avery Lucian Dominique Vernell Armand Cecile Trystane Tadgán André Fredéric Valeran Valen Aldré Emile Carlean Lauthane Kylian Henric Harold Emmund Haakon Serek Alec Caylen Aron
+			Adelmo Adran Adriano Adriano Alfonso Alfredo Alos Alano Alvar Ardanno Ardor Aril Arturiano Artur Aucán Ostin Aven Borian Brando Briano Brando Calas Castano Castante Daras Denar Edmondo Elrán Erel Eren Erlán Evin Galin Gelmano Lorens Marion Maurisio Olorio Otto Riano Ricardo Rione 
+			Robin Roger Sandro Taler Sal Siren Tomá Trían Tristan Varil Varion Varil Varil Vincenio Guillam Dustin Alfredo Lucian Domenico Vernel Armoc Cecilio Tristan Tegan Andrel Federic Valerano Valente Corin Aldres Emil Cailen Carleon Lotario Anzaro Cicero Rocair Arman Waltheri Armocan Vercan Vurcan
+			Aldelar Alenn Alfred Alric Alan Alvor Arthur Arthur Austin Brandon Brian Brandon Carsten Cassan Edmund Lawrence Otto Ryan Richard Robin Rodger Thomas Tristan Barry Wincent Welyam Dustin Alfred Dominic Vernon Arman Cecil Tristan Teagan Anders Fred Conric Alder Emil Kaylen Carl Lothane
+			Lennic Jon Eric Ben Garrett Byron Byrne Thorburn Nathaniel Armos Carlan Teagan Venac Andres Crovan Aldio Godeo Dalac Agros Artan Bardal Caero Biren Audac Serdil Otomar Otrar Adaen
+			Adelar Adran Adrion Adrioc Alfons Alfred Alos Alain Alver Ardac Ardor Aril Arcturian Arctur Austin Awen Borian Brandoc Brien Braydoc Calas Castan Castian Dalyon Delan Delian Edmund Elrac Erel Eren Erlac Evin Galin Gelmac Lawrens Maron Marcan Ollor Ottran Rian Rycan Ricain Ricon
+			Robyn Rogiec Sandor Taelar Thal Thiren Tomar Tryan Trystan Varian Varion Varian Varian Vencan Welyam Dostan Alfred Lan Dominic Venall Arnold Celgal Trystan Teacan Ancrel Frederic Valeran Valen Corin Alcres Emil Caylen Carleon Lottrac Martin Edauard
+		}
+		female_names = {
+			Victoria
+			Christina Ulrika Eleonora Hedwig
+			Anna Asta Astrid Beata Birgitta Brigid Bothild Cecilia Elin 
+			Elisabet Gunhild Helena Holmfrid Iliana Inga 
+			Ingeborg Ingegerd Ingfrid Ingrid Karin Katarina Kristina Linda 
+			Margareta Märta Martha Ragnhild Sara Sarah Sigrid Sofia 
+			Sophia Thordis Ulvhilde Åsa
+			Adra  Adelina  Alara  Aldresia  Alisanna  Athara  Amina  Amarien  Maria  Marionna  Marian  Marina  Aria  Aucanna  Auci  Arabella  Calassa  Casténnia  Castínna  
+			Cella  Celadora  Claria  Eilís  Eilísabet  Erela  Galinda  Alina  Lauranna  Lianne  Madaléin  Riánna  Thalia  Verina  Margary  Cecilie  Isabel  Isobella  Bella  
+			Willamina  Sophia  Sybille  Constance  Eléanor  Valence  Emilie  Gisela  Cara  Carina  Corina  Lisolona  Nara  Riannón  Marianne  Verina  Varina  Damevira  Damelina  Lunarona  Laurentine  Moruen  Moruith  Morganne
+			Aldresia Amiona Mioara Mioran Aliza Lizbet Margere Ezebel Welhemina Sofina Elenior Coara Azilina Camolta Drilgisa Zia Athara Aria Galinde Laurenne Thalia Isobelle Sybille Gisíle Reánnon Alessa Armalinde Petrona Adelaide Aldelina Omina Ariana Celia Laurentia Madalena Valence
+			Adrana Aldelina Alara Alderesa Alisa Atara Almina Amarina Maria Mariana Mariena Marina Alria Aucana Auç Arabel Calasa Castena Castina Cela Celadora Clara Elisa Elisabesa Erela Galinda Alina Laurena Laurentina Madeleina Reana Margela Ceçila Isobela Isobelina Bella Guilhemia Sybila 
+			Constança Alienor Valença Emila Gisela Cora Coralina Coralina Liçoleta Nara Reiana Anna Adala Leslin Lindelin
+			Arabella Audata Birenna Caeria Etua Teua Sira Serdilla Araia Crova Bella Seda Madala Tea Lea Otoia Otraria Adra  Adelina  Alara  Aldresia  Alisanna  Athara  Amina  Amarien  Maria  Marionna  Marian  Marina  Aria  Aucanna  Auci  Arabella  Calassa  Casténnia  Castínna  
+			Cella  Celadora  Claria  Eilís  Eilísabet  Erela  Galinda  Alina  Lauranna  Lianne  Madaléin  Riánna  Thalia  Verina  Margary  Cecilie  Isabel  Isobella  Bella  
+			Willamina  Sophia  Sybille  Constance  Eléanor  Valence  Emilie  Gisela  Cara  Carina  Corina  Lisolona  Nara  Riannón  Marianne  Verina  Varina  Damevira  Damelina  Lunarona  Laurentine
+			Adranne Adéle Alara Aldressa Alisanne Athara Mina Amarien Marié Marianne Marien Marinne Aria Arabel Calassa Casténne Castíne Cela Celadora Claire Eilís Eilísibet Erela Galinde Aline Laurenne Laurentíne 
+			Madaléin Reánna Thalia Varinne Margery Cécille Isobel Isobelle Belle Guillamina Sofie Sybille Constance Eléanore Valence Emile Gisíle Corale Coraline Coraline Lisolette Nara Reánnon Kylia
+			Adriana Adele Alara Aldresia Alisana Asara Mina Amarena Maria Marianna Maria Marina Ariana Aucanna Arabella Calassa Castenia Castina Cela Celiadora Clara Elisa Elisabetta Erella Galina Alina Lorenza Lianna Madalena Rianna Talia Varina Margherita Cecilia Isabella Isabella Bella Gullamina Sofia
+			Sibilla Costanza Eleonora Valenza Emilia Gisella Cara Carina Coralina Lisoletta Nara Rimannón Ana Arabella Audata Birenna Caeria Etua Teua Sira Serdilla Araia Crova Bella Seda Madala Tea Lea Otoia Otraria Adeline Aldris Alisa Atara Mina Mary Marian Maria Maria Arabell Castana Cassína Clarya Alice Lisabeth Alina Alina Lauren Margeret Cecilia Elizabeth Bella Willemina Sophie Cybill
+			Constance Elenore Valence Emily Cora Caroline Lisa Rianwyn Abigail Allison Annabel Belinda Bridget Deidre Heather Meade Melinda Rosamond
+			Adela Allara Cressia Alice Acara Aminna Amariel Marila Marilda Mariel Marilna Arya Auci Arabella Calassa Castanna Castianna Cela Celadora Clarimonde Alice Lisbet Erela Galinda Alina Lorinne Lisban Magda Reínne Calia Varina
+			Margaery Cecilia Isebel Isebella Bella Wyllamina Sofina Cibilla Constance Elenor Valenca Emma Gicela Cora Corina Coralinde Lisolene Nara Riennón
+		}
+	}
+}

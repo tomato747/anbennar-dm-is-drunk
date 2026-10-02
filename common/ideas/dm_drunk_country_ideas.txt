@@ -1,0 +1,36 @@
+PDX_ideas = {
+	start = {
+		female_advisor_chance = 0.1
+		may_recruit_female_generals = yes
+	}
+	bonus = {
+		monthly_bullshit = +20
+	}
+
+	trigger = {
+		tag = PDX 
+	}
+	free = yes
+
+	PDX_idea_1 = {
+		monthly_bullshit = +20
+	}
+	PDX_idea_2 = {
+		monthly_bullshit = +20
+	}
+	PDX_idea_3 = {
+		monthly_bullshit = +20
+	}
+	PDX_idea_4 = {
+		monthly_bullshit = +20
+	}
+	PDX_idea_5 = {
+		monthly_bullshit = +20
+	}
+	PDX_idea_6 = {
+		monthly_bullshit = +20
+	}
+	PDX_idea_7 = {
+		monthly_bullshit = +20
+	}
+}

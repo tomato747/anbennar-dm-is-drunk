@@ -1,0 +1,214 @@
+
+### bullshit modifiers ###
+bullshit_buy_2_merchant_1 = {
+	merchants = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_merchant_2 = {
+	merchants = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_merchant_3 = {
+	merchants = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_merchant_4 = {
+	merchants = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_diplomats_1 = {
+	diplomats = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_diplomats_2 = {
+	diplomats = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_diplomats_3 = {
+	diplomats = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_diplomats_4 = {
+	diplomats = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_colonist_1 = {
+	colonists = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_colonist_2 = {
+	colonists = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_colonist_3 = {
+	colonists = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_colonist_4 = {
+	colonists = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_missionary_1 = {
+	missionaries = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_missionary_2 = {
+	missionaries = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_missionary_3 = {
+	missionaries = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_2_missionary_4 = {
+	missionaries = 2
+	monthly_bullshit = -0.5
+}
+bullshit_buy_uprising_chance = {
+	native_uprising_chance = -1
+	monthly_bullshit = -1
+}
+bullshit_oe_cancel_100 = {
+	global_unrest = -5
+	stability_cost_modifier = -0.5
+	global_foreign_trade_power = -1
+	mercenary_cost = -0.5
+	diplomatic_reputation = 2
+	improve_relation_modifier = 0.5
+	yearly_corruption = -0.5
+
+}
+bullshit_oe_cancel_200 = {
+	global_unrest = -9.64
+	stability_cost_modifier = -0.964
+	global_foreign_trade_power = -1.928
+	mercenary_cost = -0.964
+	diplomatic_reputation = 3.86
+	improve_relation_modifier = 0.964
+	yearly_corruption = -0.96
+}
+bullshit_oe_cancel_300 = {
+	global_unrest = -14.88
+	stability_cost_modifier = -1.488
+	global_foreign_trade_power = -2.976
+	mercenary_cost = -1.488
+	diplomatic_reputation = 5.95
+	improve_relation_modifier = 1.488
+	yearly_corruption = -1.49
+}
+bullshit_oe_cancel_400 = {
+	global_unrest = -20
+	stability_cost_modifier = -2
+	global_foreign_trade_power = -4
+	mercenary_cost = -2
+	diplomatic_reputation = 8
+	improve_relation_modifier = 2
+	yearly_corruption = -2
+}
+bullshit_oe_cancel_500 = {
+	global_unrest = -24.72
+	stability_cost_modifier = -2.472
+	global_foreign_trade_power = -4.944
+	mercenary_cost = -2.472
+	diplomatic_reputation = 9.89
+	improve_relation_modifier = 2.472
+	yearly_corruption = -2.47
+}
+bullshit_oe_cancel_600 = {
+	global_unrest = -29.792
+	stability_cost_modifier = -2.992
+	global_foreign_trade_power = -5.984
+	mercenary_cost = -2.992
+	diplomatic_reputation = 11.97
+	improve_relation_modifier = 2.992
+	yearly_corruption = -2.99
+}
+
+bullshit_oe_cancel_700 = {
+	
+}
+
+bullshit_oe_cancel_800 = {
+	global_unrest = -40
+	stability_cost_modifier = -4
+	global_foreign_trade_power = -8
+	mercenary_cost = -4
+	diplomatic_reputation = 16
+	improve_relation_modifier = 4
+	yearly_corruption = -4
+}
+
+bullshit_oe_cancel_900 = {
+	
+}
+
+bullshit_oe_cancel_1000 = {
+	
+}
+
+bullshit_oe_cancel = {
+	overextension_impact_modifier = -1
+}
+
+bullshit_envoy_teleport = {
+	envoy_travel_time = -1
+	monthly_bullshit = -3
+}
+
+bullshit_army_navy_vroom_vroom = {
+	movement_speed = 1000000
+	movement_speed_in_fleet_modifier = 1000000
+	monthly_bullshit = -200
+}
+
+bullshit_op_mode = {
+	monthly_bullshit = 10000
+	overextension_impact_modifier = -1
+	global_tax_income = 3000
+	global_tax_modifier = 100.0
+	global_unrest = -100
+	administrative_efficiency = 100.0
+	core_creation = -1.0
+	development_cost = -1.0
+	republican_tradition = 100.0
+	can_revoke_parliament_seats = yes
+	num_of_parliament_issues = 10
+	infantry_power = 10.0
+	cavalry_power = 10.0
+	artillery_power = 10.0
+	land_morale = 10.0
+	heavy_ship_power = 10.0
+	light_ship_power = 10.0
+	galley_power = 10.0
+	transport_power = 10.0
+	naval_morale = 10.0
+	colonists = 100
+	native_uprising_chance = -1.0
+	native_assimilation = 1.0
+	auto_explore_adjacent_to_colony = yes
+	may_establish_frontier = yes
+	colonist_placement_chance = 1.0
+	global_colonial_growth = 1000
+	colony_cost_modifier = 1
+	max_absolutism = 100
+	yearly_absolutism = 100
+	cb_on_overseas = yes
+	cb_on_primitives = yes
+	cb_on_religious_enemies = yes
+	reduced_stab_impacts = yes
+	can_fabricate_for_vassals = yes
+	governing_cost = -1.0
+	global_manpower_modifier = 100.0
+	global_sailors_modifier = 100.0
+	land_forcelimit_modifier = 100.0
+	naval_forcelimit_modifier = 100.0
+	allow_client_states = yes
+	diplomatic_upkeep = 300
+	diplomats = 100
+	envoy_travel_time = -100.0
+	years_of_nationalism = -50
+}
+
+bullshit_aggressive_expansion_off = {
+	ae_impact = 100.0
+}

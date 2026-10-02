@@ -1,0 +1,34 @@
+bullshit_delete_alliances = {
+    category = influence
+    
+    require_acceptance = no
+    
+    is_visible = {
+        tag = PDX
+		ai = no
+    }
+    
+    is_allowed = {
+		FROM = {
+			num_of_allies = 1
+		}
+		has_government_power = {
+			mechanic_type = bullshit_meter_mechanic
+			power_type = bullshit
+			value = 300
+		}
+    }
+    
+    on_accept = {
+        add_government_power = {
+			mechanic_type = bullshit_meter_mechanic
+			power_type = bullshit
+			value = -300
+		}
+		FROM = {
+			every_ally = {
+				break_alliance = FROM
+			}
+		}
+    }
+}

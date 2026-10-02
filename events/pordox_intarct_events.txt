@@ -1,0 +1,372 @@
+namespace = pordox_intarct_events
+
+#Spawn event
+country_event = {
+	id = pordox_intarct_events.1
+	title = pordox_intarct_events.1.t
+	desc = pordox_intarct_events.1.d
+	picture = INVASION_ALLIES_eventPictur
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_province = {
+				limit = { province_group = escann_proper is_city = no }
+				save_event_target_as = pordox_intarct_escann_target
+			}
+			random_province = {
+				limit = { continent = north_america is_city = no }
+				save_event_target_as = pordox_intarct_n_aelantir_target
+			}
+			random_province = {
+				limit = { continent = south_america is_city = no }
+				save_event_target_as = pordox_intarct_s_aelantir_target
+			}
+			random_province = {
+				limit = { NOT = { continent = oceania } }
+				save_event_target_as = pordox_intarct_everywhere_but_insyaa_target
+			}
+			random_province = {
+				save_event_target_as = pordox_intarct_anywhere_target
+			}
+		}
+	}
+
+	#Spawn in Escann
+	option = {
+		name = pordox_intarct_events.1.a
+		event_target:pordox_intarct_escann_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+			if = {
+				limit = { NOT = { province_id = 1 } }
+				1 = { undiscover_country = PDX }
+			}
+			if = {
+				limit = { NOT = { province_id = 93 } }
+				93 = { undiscover_country = PDX }
+			}
+		}
+		PDX = {
+			spawn_pordox_effect_pdx_scope = yes
+			set_capital = event_target:pordox_intarct_escann_target
+		}
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Spawn in North Aelantir
+	option = {
+		name = pordox_intarct_events.1.b
+		event_target:pordox_intarct_n_aelantir_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+			if = {
+				limit = { NOT = { province_id = 1 } }
+				1 = { undiscover_country = PDX }
+			}
+			if = {
+				limit = { NOT = { province_id = 93 } }
+				93 = { undiscover_country = PDX }
+			}
+		}
+		PDX = {
+			spawn_pordox_effect_pdx_scope = yes
+			set_capital = event_target:pordox_intarct_n_aelantir_target
+		}
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Spawn in South Aelantir
+	option = {
+		name = pordox_intarct_events.1.c
+		event_target:pordox_intarct_s_aelantir_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+			if = {
+				limit = { NOT = { province_id = 1 } }
+				1 = { undiscover_country = PDX }
+			}
+			if = {
+				limit = { NOT = { province_id = 93 } }
+				93 = { undiscover_country = PDX }
+			}
+		}
+		PDX = {
+			spawn_pordox_effect_pdx_scope = yes
+			set_capital = event_target:pordox_intarct_s_aelantir_target
+		}
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Spawn in Anywhere but Insyaa
+	option = {
+		name = pordox_intarct_events.1.e
+		event_target:pordox_intarct_everywhere_but_insyaa_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+			if = {
+				limit = { NOT = { province_id = 1 } }
+				1 = { undiscover_country = PDX }
+			}
+			if = {
+				limit = { NOT = { province_id = 93 } }
+				93 = { undiscover_country = PDX }
+			}
+		}
+		PDX = {
+			spawn_pordox_effect_pdx_scope = yes
+			set_capital = event_target:pordox_intarct_everywhere_but_insyaa_target
+		}
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Spawn in Anywhere
+	option = {
+		name = pordox_intarct_events.1.f
+		event_target:pordox_intarct_anywhere_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+			if = {
+				limit = { NOT = { province_id = 1 } }
+				1 = { undiscover_country = PDX }
+			}
+			if = {
+				limit = { NOT = { province_id = 93 } }
+				93 = { undiscover_country = PDX }
+			}
+		}
+		PDX = {
+			spawn_pordox_effect_pdx_scope = yes
+			set_capital = event_target:pordox_intarct_anywhere_target
+		}
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Choose specifically
+	option = {
+		name = pordox_intarct_events.1.g
+		trigger = { always = no }	#Currently Broken
+		# country_event = { id = pordox_intarct_events.3 }	#Choose Specific Region to spawn
+	}
+	
+	#Do Nothing
+	option = {
+		name = pordox_intarct_events.1.h
+		clr_global_flag = pordox_intarct_event_active
+	}
+}
+
+#Switch tag?
+country_event = {
+	id = pordox_intarct_events.2
+	title = pordox_intarct_events.2.t
+	desc = pordox_intarct_events.2.d
+	picture = INVASION_ALLIES_eventPictur
+	is_triggered_only = yes
+
+	#Yes
+	option = {
+		name = pordox_intarct_events.2.a
+		switch_tag = PDX
+		clr_global_flag = pordox_intarct_event_active
+	}
+
+	#No (why?)
+	option = {
+		name = pordox_intarct_events.2.b
+		clr_global_flag = pordox_intarct_event_active
+	}
+
+}
+
+#Choose where spawn specifically
+country_event = {
+	id = pordox_intarct_events.3
+	title = pordox_intarct_events.3.t
+	desc = pordox_intarct_events.3.d
+	picture = INVASION_ALLIES_eventPictur
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_province = {
+				limit = {
+					OR = {
+						superregion = western_cannor_superregion
+						superregion = gerudia_superregion
+						#No Escann, just no
+					}
+				}
+				save_event_target_as = pordox_intarct_cannor_target
+			}
+			random_province = {
+				limit = { superregion = bulwar_superregion }
+				save_event_target_as = pordox_intarct_bulwar_target
+			}
+			random_province = {
+				limit = {
+					continent = africa
+					NOT = { superregion = bulwar_superregion }
+				}
+				save_event_target_as = pordox_intarct_sarhal_target
+			}
+			random_province = {
+				limit = { superregion = rahen_superregion }
+				save_event_target_as = pordox_intarct_rahen_target
+			}
+			random_province = {
+				limit = {
+					OR = {
+						superregion = yanshen_superregion
+						superregion = vimdatrong_superregion
+					}
+				}
+				save_event_target_as = pordox_intarct_haless_target
+			}
+		}
+	}
+
+	#Spawn in Escann
+	option = {
+		name = pordox_intarct_events.1.a
+		event_target:pordox_intarct_escann_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+		}
+		spawn_pordox_effect_pdx_scope = yes
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Spawn in North Aelantir
+	option = {
+		name = pordox_intarct_events.1.b
+		event_target:pordox_intarct_n_aelantir_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+		}
+		spawn_pordox_effect_pdx_scope = yes
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Spawn in South Aelantir
+	option = {
+		name = pordox_intarct_events.1.c
+		event_target:pordox_intarct_n_aelantir_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+		}
+		spawn_pordox_effect_pdx_scope = yes
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Spawn in Anywhere but Insyaa
+	option = {
+		name = pordox_intarct_events.1.e
+		event_target:pordox_intarct_everywhere_but_insyaa_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+		}
+		spawn_pordox_effect_pdx_scope = yes
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Spawn in Anywhere
+	option = {
+		name = pordox_intarct_events.1.f
+		event_target:pordox_intarct_anywhere_target = {
+			cede_province = PDX
+			add_core = PDX
+			change_controller = PDX
+			add_human_minority_size_effect = yes
+		}
+		spawn_pordox_effect_pdx_scope = yes
+		country_event = { id = pordox_intarct_events.2 }	#Switch tag?
+	}
+
+	#Choose specifically
+	option = {
+		name = pordox_intarct_events.1.g
+		# country_event = { id = pordox_intarct_events.3 }	#Choose Specific Region to spawn
+	}
+	
+	#Do Nothing
+	option = {
+		name = pordox_intarct_events.1.h
+	}
+}
+
+#Switching Spells
+country_event = {
+	id = pordox_intarct_events.4
+	title = pordox_intarct_events.4.t
+	desc = pordox_intarct_events.4.d
+	picture = INVASION_ALLIES_eventPictur
+	is_triggered_only = yes
+
+	#Harpy
+	option = {
+		name = pordox_intarct_events.4.a
+		limit = { NOT = { has_country_flag = magic_list_harpy_default } }
+		set_custom_spell_list = { group = harpy }
+		clr_global_flag = pordox_intarct_magic_tradition_event_active
+	}
+
+	#Centaur
+	option = {
+		name = pordox_intarct_events.4.b
+		limit = { NOT = { has_country_flag = magic_list_centaur_default } }
+		set_custom_spell_list = { group = centaur }
+		clr_global_flag = pordox_intarct_magic_tradition_event_active
+	}
+
+	#Bulwar
+	option = {
+		name = pordox_intarct_events.4.c
+		limit = { NOT = { has_country_flag = magic_list_bulwar_default } }
+		set_custom_spell_list = { group = bulwar }
+		clr_global_flag = pordox_intarct_magic_tradition_event_active
+	}
+
+	#Eordand
+	option = {
+		name = pordox_intarct_events.4.e
+		limit = { NOT = { has_country_flag = magic_list_eordand_default } }
+		set_custom_spell_list = { group = eordand }
+		clr_global_flag = pordox_intarct_magic_tradition_event_active
+	}
+
+	#Xhazobkult
+	option = {
+		name = pordox_intarct_events.4.f
+		limit = { NOT = { has_country_flag = magic_list_xhazobkult_default } }
+		set_custom_spell_list = { group = xhazobkult }
+		clr_global_flag = pordox_intarct_magic_tradition_event_active
+	}
+
+	#Blackherd
+	option = {
+		name = pordox_intarct_events.4.g
+		limit = { NOT = { has_country_flag = magic_list_centaur_black_herd } }
+		set_custom_spell_list = { group = centaur subgroup = black_herd }
+		clr_global_flag = pordox_intarct_magic_tradition_event_active
+	}
+
+}

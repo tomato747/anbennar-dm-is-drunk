@@ -1,0 +1,31 @@
+guiTypes = {
+	windowType = {
+		name = "bullshit_gov_mech"
+		size = { x = 300 y = 152 }
+		backGround = ""
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_bullshit_meter_power_bar"
+			position = { x = 18 y = 118 }
+		}	
+
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_bullshit_frame"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}	
+
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_bullshit_menu_button"
+			position = { x = 10 y = 74 }
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+}

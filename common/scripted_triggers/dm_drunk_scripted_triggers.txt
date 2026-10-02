@@ -1,0 +1,114 @@
+bullshit_oe_cancellation_modifier_active = {
+	custom_trigger_tooltip = {
+		tooltip = bullshit_oe_cancellation_modifier_active.tt
+		OR = {
+			has_country_modifier = bullshit_oe_cancel_100
+			has_country_modifier = bullshit_oe_cancel_200
+			has_country_modifier = bullshit_oe_cancel_300
+			has_country_modifier = bullshit_oe_cancel_400
+			has_country_modifier = bullshit_oe_cancel_500
+			has_country_modifier = bullshit_oe_cancel_600
+			has_country_modifier = bullshit_oe_cancel_700
+			has_country_modifier = bullshit_oe_cancel_800
+			has_country_modifier = bullshit_oe_cancel_900
+			has_country_modifier = bullshit_oe_cancel_1000
+			has_country_modifier = bullshit_oe_cancel
+		}
+	}
+}
+bullshit_oe_cancellation_has_enough_bullshit_oe = {
+	custom_trigger_tooltip = {
+		tooltip = bullshit_oe_cancellation_has_enough_bullshit_oe.tt
+		OR = {
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 370
+				}
+				overextension_percentage = 1
+				NOT = { overextension_percentage = 2 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 440
+				}
+				overextension_percentage = 2
+				NOT = { overextension_percentage = 3 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 510
+				}
+				overextension_percentage = 3
+				NOT = { overextension_percentage = 4 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 580
+				}
+				overextension_percentage = 4
+				NOT = { overextension_percentage = 5 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 650
+				}
+				overextension_percentage = 5
+				NOT = { overextension_percentage = 6 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 720
+				}
+				overextension_percentage = 6
+				NOT = { overextension_percentage = 7 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 790
+				}
+				overextension_percentage = 7
+				NOT = { overextension_percentage = 8 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 860
+				}
+				overextension_percentage = 8
+				NOT = { overextension_percentage = 9 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 930
+				}
+				overextension_percentage = 9
+				NOT = { overextension_percentage = 10 }
+			}
+			AND = {
+				has_government_power = {
+					mechanic_type = bullshit_meter_mechanic
+					power_type = bullshit
+					value = 1000
+				}
+				overextension_percentage = 10
+			}
+		}
+	}
+}

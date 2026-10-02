@@ -1,0 +1,198 @@
+spriteTypes = {
+	
+	### Bullshit ###
+	spriteType = {
+		name = "GFX_bullshit_frame"
+		texturefile = "gfx/interface/government_mechanics/bullshit_meter/bullshit_meter_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_bullshit_meter_power_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/bullshit_meter/bullshit_meter_full.dds"
+		textureFile2 = "gfx/interface/government_mechanics/hessian_militarization/hessian_progress_bar_empty.dds"
+		size = { x = 260 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_bullshit_menu_button"
+		texturefile = "gfx/interface/government_mechanics/bullshit_meter/bullshit_menu_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_delete_fort_button"	
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//delete_fort_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_bullshit_menu_bg"
+		texturefile = "gfx/interface/government_mechanics/bullshit_meter/bullshit_menu_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_bullshit_menu_divider"	
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_menu_divider.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	
+	#effect buttons
+	
+	spriteType = {
+		name = "GFX_pdx_bullshit_give_adm_mana_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_effect_buttons//bullshit_give_adm_mana_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_pdx_bullshit_give_dip_mana_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter/bullshit_effect_buttons///bullshit_give_dip_mana_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_pdx_bullshit_give_mil_mana_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_effect_buttons//bullshit_give_mil_mana_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_pdx_bullshit_give_magic_mana_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_effect_buttons//bullshit_give_magic_mana_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_give_money_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_effect_buttons//bullshit_give_money_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_give_manpower_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_effect_buttons//bullshit_give_manpower_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_give_sailor_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_effect_buttons//bullshit_give_sailor_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	#Modifier buttons
+	
+	spriteType = {
+		name = "GFX_bullshit_give_merchant_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_modifier_buttons//bullshit_give_merchant_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_give_diplomat_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_modifier_buttons//bullshit_give_diplomat_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_give_colonist_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_modifier_buttons//bullshit_give_colonist_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_give_missionary_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_modifier_buttons//bullshit_give_missionary_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_give_native_uprising_chance_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_modifier_buttons//bullshit_give_native_uprising_chance_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_cancel_oe_modifiers_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_other_buttons//bullshit_cancel_oe_modifiers_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_envoy_teleport_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_modifier_buttons//bullshit_envoy_teleport_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_army_teleport_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_modifier_buttons//bullshit_army_teleport_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+	
+	#Other Buttons
+	
+	spriteType = {
+		name = "GFX_bullshit_open_kiamoa_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_other_buttons//bullshit_open_kiamoa_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_respawn_john_paradox_button"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_other_buttons//bullshit_respawn_john_paradox_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_bullshit_toggle_xenophobia"
+		texturefile = "gfx//interface//government_mechanics//bullshit_meter//bullshit_other_buttons//bullshit_toggle_xenophobia.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+		noOfFrames = 2
+	}
+}
